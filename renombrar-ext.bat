@@ -1,0 +1,1 @@
+ren *.xhtml *.html
