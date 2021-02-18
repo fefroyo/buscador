@@ -13,10 +13,12 @@ eng.google = {
 		'Maps'   : ["http://maps.google.com/maps?q=%query%",			false],
 		'Feedly'   : ["http://feedly.com/i/my"],
 		'Imagenes' : ["http://images.google.com/images?q=%query%&hl=es",	apiUrl+"?eng=google&timestamp=%time%&q=%query%"],
-		'Symbaloo'   : ["http://www.symbaloo.com/home/mix/13ePGX947G"],
+		//'Symbaloo'   : ["http://www.symbaloo.com/home/mix/13ePGX947G"],
+		'imagen PNG' : ["https://www.pngwing.com/es/search?q=%query%"],
 		'Fonts'   : ["https://fonts.google.com/?query=%query"],
+		'Fonts2s'   : ["http://font2s.com/search.html?q=%query"],
 		//'Fotos'   : ["http://picasaweb.google.com/home?hl=es&tab=iq"],
-		'Pato'   : ["https://duckduckgo.com/?q=%query%&ia=about"],
+		'Pato'   : ["https://duckduckgo.com/?q=%query%&ia=about"]
 	}
 };
 
@@ -70,7 +72,9 @@ eng.thetvdb = {
 	pageTitle: "thetvdb",
 	logo: "thetvdb_fina.png",
 	places: {
-		'Buscar series' : ["http://thetvdb.com/?string=%query%&searchseriesid=&tab=listseries&function=Search"]
+		'Buscar series' : ["http://thetvdb.com/?string=%query%&searchseriesid=&tab=listseries&function=Search"],
+		'Busca PeliTorrent' : ["http://www.mejortorrent.com/secciones.php?sec=buscador&valor=%query%"],
+		'Serie Pokemon' : ["http://www.pokemonlaserielatino.com/search?q=%query%"]
 	}
 };
 
@@ -81,10 +85,8 @@ eng.nube = {
 	pageTitle: "varios",
 	logo: "variado.png",
 	places: {
-		'busca peli' : ["http://www.mejortorrent.com/secciones.php?sec=buscador&valor=%query%"],
-		'pokemonSerie' : ["http://www.pokemonlaserielatino.com/search?q=%query%"],
-		
-		'biblia' : ["http://wol.jw.org/es/wol/l/r4/lp-s?q=%query%"],
+		'texto Biblia' : ["http://wol.jw.org/es/wol/l/r4/lp-s?q=%query%"],
+		'imagenes PNG' : ["https://www.pngwing.com/es/search?q=%query%"]
 	}
 };
 
