@@ -12,12 +12,10 @@ eng.google = {
 		'Gmail' : ["https://mail.google.com/mail/?shva=1#inbox"],
 		'Maps'   : ["http://maps.google.com/maps?q=%query%",			false],
 		'Feedly'   : ["http://feedly.com/i/my"],
-		'Imagenes' : ["http://images.google.com/images?q=%query%&hl=es",	apiUrl+"?eng=google&timestamp=%time%&q=%query%"],
+		'Images' : ["http://images.google.com/images?q=%query%&hl=es",	apiUrl+"?eng=google&timestamp=%time%&q=%query%"],
 		//'Symbaloo'   : ["http://www.symbaloo.com/home/mix/13ePGX947G"],
-		'imagen PNG' : ["https://www.pngwing.com/es/search?q=%query%"],
 		'Fonts'   : ["https://fonts.google.com/?query=%query"],
-		'Fonts2s'   : ["http://font2s.com/search.html?q=%query"],
-		//'Fotos'   : ["http://picasaweb.google.com/home?hl=es&tab=iq"],
+		'Fonts2'   : ["http://font2s.com/search.html?q=%query"],
 		'Pato'   : ["https://duckduckgo.com/?q=%query%&ia=about"]
 	}
 };
@@ -86,6 +84,7 @@ eng.nube = {
 	logo: "variado.png",
 	places: {
 		'texto Biblia' : ["http://wol.jw.org/es/wol/l/r4/lp-s?q=%query%"],
+		'Fotos'   : ["http://picasaweb.google.com/home?hl=es&tab=iq"],
 		'imagenes PNG' : ["https://www.pngwing.com/es/search?q=%query%"]
 	}
 };
